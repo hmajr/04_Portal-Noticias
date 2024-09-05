@@ -20,13 +20,11 @@
   --text-span: 600 14px/145% var(--font-family);
   --text: 400 14px/160% var(--font-family);
 }
-
 body {
-  font-family: var(--text);
+  font: var(--text);
   color: var(--text-color-primary);
   background-color: var(--bg-color);
 }
-
 a {
   text-decoration: none;
   color: inherit;
@@ -38,4 +36,8 @@ a:hover {
 
 h1, h2, h3 {
   font: inherit;
+}
+
+ul {
+  list-style: none;
 }
