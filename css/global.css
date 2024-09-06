@@ -41,3 +41,11 @@ h1, h2, h3 {
 ul {
   list-style: none;
 }
+
+/* Utility-first */
+.grid{
+  display: grid;
+}
+.grid-flow-col{
+  grid-auto-flow: column;
+}
