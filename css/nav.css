@@ -6,6 +6,7 @@ div{
 
 #primary {
   padding-block: 20px;
+  margin-inline: 32px;
 
   /* nesting css*/
   div:nth-child(2) {
@@ -21,4 +22,9 @@ div{
   
   border: solid 1px var(--stroke-color );
   border-inline: none;
+
+  div{
+    justify-content: space-between;
+    margin-inline: 32px;
+  }
 }
