@@ -25,6 +25,11 @@ body {
   color: var(--text-color-primary);
   background-color: var(--bg-color);
 }
+main{
+  margin-top: 40px;
+  gap: 80px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
