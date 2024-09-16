@@ -1,7 +1,3 @@
-
-section{
-  padding-inline: 32px;
-}
 section header {
   border-top: 1px solid var(--stroke-color);
   padding-block: 12px 24px;
@@ -16,7 +12,6 @@ section header {
       background-image: url(../assets/icons/ArrowRight.svg);
       width: 16px;
       height: 16px;
-      
     }
     
     &:hover span{
@@ -58,6 +53,7 @@ section header {
 
 }
 #featured {
+  grid-area: featured;
   img {
     height: 100%;
     object-fit: cover;
@@ -68,7 +64,7 @@ section header {
 }
 
 #weekly {
-
+  grid-area: weekly;
   &>div {
     grid-template-columns: repeat(4, 292px);
   }
